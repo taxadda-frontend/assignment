@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-input-group-wrapper {
+  margin-bottom: 10px;
+}
+
+.modal-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.modal-table-header {
+  margin-top: 20px;
+}
+
+.modal-table th, .modal-table td {
+  width: 20%;
+  text-align: center;
+}
+
+.invoice-bottom {
+  margin-top: 10px;
+}
+
+.invoice-modal {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.invoice-bottom-amount {
+  margin: 10px 0 20px 0;
+}
+
+/* .invoice-bottom-notes {
+  margin: 0 0 10px 0;
+} */
+
+.invoice-bottom-amount p, .invoice-bottom-notes p {
+  margin: 0;
+}
+
+.ant-radio-group {
+  margin-left: 10px !important;
+}
+
+.invoice-bottom-submit {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.invoice-bottom-submit button {
+  margin-left: 10px;
+}
+
